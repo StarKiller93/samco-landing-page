@@ -1,7 +1,20 @@
-# Frontend Mentor - Social media dashboard with theme switcher
+# Travel Agency Landing Page - [Cсылка на ДЕМО](https://travel-agency93.netlify.app/)
 
-This code is from my [YouTube video series](https://www.youtube.com/watch?v=iL4irerdGdU&list=PLUWqFDiirlsu5az5EIyxe8ZddyNO_kDuP) building a social media dashboard with dark/light toggle.
+## [Ссылка на Figma Макет][https://www.arshakir.com/project/travel-agency-landing-page-freebie]
 
-[Frontend Mentor challenge](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H)
+## Полностью адаптивный
 
-Check out the live website [here](https://codercoder-darklight-toggle.pages.dev/)!
+## Используемые технологии:
+
+1. HTML/CSS
+
+- БЭМ Методология
+- SMACSS (Scalable and Modular Architecture for CSS)
+- FLEXBOX/CSS Grid
+
+2. Set UP
+
+- Gulp
+- npm
+
+![](screenshot.jpg)
