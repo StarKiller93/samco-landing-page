@@ -1,0 +1,40 @@
+.service {
+  margin-bottom: 10rem;
+
+  .grid {
+    align-items: center;
+    column-gap: 6rem;
+  }
+
+  .heading-primary {
+    line-height: normal;
+    margin-bottom: 3rem;
+  }
+
+  &__text {
+    line-height: 2.4rem;
+    margin-bottom: 4rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    &-in {
+      display: flex;
+      gap: 3rem;
+    }
+  }
+
+  &__list-box {
+    border: 1px solid #f0f0f0;
+    box-shadow: 4px 8px 15px rgba(71, 71, 71, 0.1);
+    border-radius: 4px;
+    padding: 2.5rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+}

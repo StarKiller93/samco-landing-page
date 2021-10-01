@@ -1,0 +1,40 @@
+.form {
+  input,
+  textarea {
+    background-color: #fafbfc;
+    border: 1px solid #e8e9ef;
+    border-radius: 4px;
+    font-family: "Nunito", sans-serif;
+
+    &:focus,
+    &:hover {
+      border: 1px solid #5d5d60;
+      transition: all 0.3s;
+    }
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #979797;
+  }
+
+  input {
+    height: 5rem;
+    padding: 0 2rem;
+  }
+
+  textarea {
+    height: 10rem;
+    grid-area: t/t;
+    resize: none;
+    padding: 1.2rem 2rem;
+    outline: none;
+  }
+
+  .btn {
+    padding: 1.2rem 4rem;
+    justify-self: start;
+    align-self: start;
+    grid-area: b1;
+  }
+}

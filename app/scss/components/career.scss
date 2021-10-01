@@ -1,0 +1,35 @@
+.career {
+  margin-bottom: 10rem;
+  background-color: #f7f7f7;
+
+  .grid {
+    column-gap: 7rem;
+    align-items: center;
+  }
+
+  &__left {
+    height: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &__right {
+    max-width: 52.5rem;
+  }
+
+  .heading-secondary {
+    margin-bottom: 1rem;
+  }
+
+  .heading-primary {
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
+  }
+}

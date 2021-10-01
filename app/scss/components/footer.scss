@@ -1,0 +1,90 @@
+.footer {
+  &__row1 {
+    padding: 6rem 0;
+    background-color: #f7f7f7;
+    .grid {
+      grid-template-columns: 1fr 1fr 2.5fr 1fr 1fr;
+      align-items: start;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 2.5rem;
+  }
+
+  &__social-link {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color: #959595;
+    cursor: pointer;
+  }
+
+  &__social-icon {
+    font-size: 1.8rem;
+    &:hover {
+      color: var(--secondary-color);
+    }
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &__title {
+    font-weight: 700;
+  }
+
+  &__link {
+    font-size: 1.4rem;
+    color: var(--text-color-2);
+  }
+
+  &__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__copyright {
+    padding: 1.5rem 0;
+    text-align: center;
+    background-color: var(--primary-color);
+
+    &-text {
+      color: var(--white);
+      font-size: 1.5rem;
+    }
+  }
+}
+
+/*========== SCROLL UP ==========*/
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: var(--primary-color);
+  padding: 5px;
+  display: flex;
+  opacity: 0.9;
+  z-index: 10000;
+  transition: 0.4s;
+}
+
+.scrollup:hover {
+  background-color: #002c70;
+  opacity: 1;
+}
+
+.scrollup__icon {
+  color: var(--white);
+  font-size: 2.5rem;
+}
+
+/* Show scroll */
+.show-scroll {
+  bottom: 5rem;
+}

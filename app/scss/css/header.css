@@ -1,0 +1,135 @@
+@use "../util" as *;
+.header {
+  width: 100%;
+  padding: 2.8rem 0;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5.5rem;
+}
+
+.header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4.8rem;
+  position: relative;
+}
+
+.header__nav-link {
+  font-weight: 600;
+  color: #313131;
+}
+
+.header__nav-link:hover {
+  color: var(--primary-color);
+}
+
+.header__icon {
+  color: var(--primary-color);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.header .btn {
+  padding: 1.3rem 2rem;
+}
+
+.header__search-box {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 11rem;
+  right: 7%;
+  width: 35rem;
+  height: 6rem;
+  line-height: 6rem;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: var(--white);
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.header__search-box input[type="text"] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--primary-color);
+}
+
+.header__search-box input[type="button"] {
+  color: var(--white);
+  font-size: var(--normal-font-size);
+  font-weight: 700;
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.header__search-box input[type="button"]:hover {
+  background-color: #002c70;
+}
+
+.showSearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-menu {
+  font-size: 3rem;
+  cursor: pointer;
+  color: var(--primary-color);
+  display: none;
+}
+
+.nav-close {
+  font-size: 3rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+  display: none;
+}
+
+.showNav {
+  -webkit-transform: translateY(0%) !important;
+          transform: translateY(0%) !important;
+}
+
+.sticky {
+  max-height: 9.6rem;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.97);
+  -webkit-box-shadow: 0px 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}

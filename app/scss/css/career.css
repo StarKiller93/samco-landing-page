@@ -1,0 +1,39 @@
+.career {
+  margin-bottom: 10rem;
+  background-color: #f7f7f7;
+}
+
+.career .grid {
+  -webkit-column-gap: 7rem;
+          column-gap: 7rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.career__left {
+  height: 100%;
+}
+
+.career__left img {
+  height: 100%;
+  width: 100%;
+}
+
+.career__right {
+  max-width: 52.5rem;
+}
+
+.career .heading-secondary {
+  margin-bottom: 1rem;
+}
+
+.career .heading-primary {
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.career__text {
+  line-height: 2.2rem;
+  margin-bottom: 2rem;
+}

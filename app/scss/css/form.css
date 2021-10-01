@@ -1,0 +1,58 @@
+.form input,
+.form textarea {
+  background-color: #fafbfc;
+  border: 1px solid #e8e9ef;
+  border-radius: 4px;
+  font-family: "Nunito", sans-serif;
+}
+
+.form input:focus, .form input:hover,
+.form textarea:focus,
+.form textarea:hover {
+  border: 1px solid #5d5d60;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.form input::-webkit-input-placeholder,
+.form textarea::-webkit-input-placeholder {
+  color: #979797;
+}
+
+.form input:-ms-input-placeholder,
+.form textarea:-ms-input-placeholder {
+  color: #979797;
+}
+
+.form input::-ms-input-placeholder,
+.form textarea::-ms-input-placeholder {
+  color: #979797;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #979797;
+}
+
+.form input {
+  height: 5rem;
+  padding: 0 2rem;
+}
+
+.form textarea {
+  height: 10rem;
+  grid-area: t/t;
+  resize: none;
+  padding: 1.2rem 2rem;
+  outline: none;
+}
+
+.form .btn {
+  padding: 1.2rem 4rem;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  grid-area: b1;
+}

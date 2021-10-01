@@ -1,0 +1,114 @@
+.footer__row1 {
+  padding: 6rem 0;
+  background-color: #f7f7f7;
+}
+
+.footer__row1 .grid {
+  -ms-grid-columns: 1fr 1fr 2.5fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 2.5fr 1fr 1fr;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.footer__logo {
+  margin-bottom: 2.5rem;
+}
+
+.footer__social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+  color: #959595;
+  cursor: pointer;
+}
+
+.footer__social-icon {
+  font-size: 1.8rem;
+}
+
+.footer__social-icon:hover {
+  color: var(--secondary-color);
+}
+
+.footer__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer__title {
+  font-weight: 700;
+}
+
+.footer__link {
+  font-size: 1.4rem;
+  color: var(--text-color-2);
+}
+
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__copyright {
+  padding: 1.5rem 0;
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+.footer__copyright-text {
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+/*========== SCROLL UP ==========*/
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: var(--primary-color);
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0.9;
+  z-index: 10000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.scrollup:hover {
+  background-color: #002c70;
+  opacity: 1;
+}
+
+.scrollup__icon {
+  color: var(--white);
+  font-size: 2.5rem;
+}
+
+/* Show scroll */
+.show-scroll {
+  bottom: 5rem;
+}

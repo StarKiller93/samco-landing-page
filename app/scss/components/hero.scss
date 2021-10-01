@@ -1,0 +1,44 @@
+@use "../util" as *;
+
+.hero {
+  background: url("/images/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20rem 0;
+  position: relative;
+
+  &__content {
+    max-width: 100%;
+  }
+
+  .heading-primary {
+    color: var(--white);
+    line-height: 6.8rem;
+    margin-bottom: 3.5rem;
+  }
+
+  &__text {
+    color: var(--white);
+    line-height: 2.8rem;
+    margin-bottom: 5rem;
+  }
+
+  &__dots {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    span {
+      &:hover {
+        background-color: var(--primary-color);
+        border: 1px solid var(--white);
+      }
+    }
+  }
+}
+
+.swiper-container {
+  overflow: hidden;
+  max-width: 50rem;
+}

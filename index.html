@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Samco | Business Template</title>
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="/dist/style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <!-- Swiper Slider  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script defer src="/dist/script.js"></script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <a href="#"
+          ><img src="/images/logo.png" alt="Logo" class="header__logo"
+        /></a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <ion-icon name="close-outline" class="nav-close" onclick="navToggle();"></ion-icon>
+            <li><a href="#" class="header__nav-link active">Home</a></li>
+            <li><a href="#" class="header__nav-link">Partner</a></li>
+            <li><a href="#" class="header__nav-link">About US</a></li>
+            <li><a href="#" class="header__nav-link">News</a></li>
+            <li><a href="#" class="header__nav-link">Products</a></li>
+            <li><a href="#" class="header__nav-link">Warranty</a></li>
+            <li><a href="#" class="header__nav-link">Career</a></li>
+          </ul>
+          <div class="header__search">
+            <ion-icon name="search-outline" class="header__icon"></ion-icon>
+            <div class="header__search-box">
+              <input type="text" placeholder="Search...">
+              <input type="button" value="Search">
+            </div>
+          </div>
+          <ion-icon name="menu-outline" class="nav-menu" onclick="navToggle();"></ion-icon>
+          <a href="#contact" class="header__cta btn" style="display: none"
+            >Contact us</a
+          >
+        </nav>
+      </div>
+    </header>
+    <!-- End of Header Section  -->
+
+    <!-- Hero Section  -->
+    <section class="hero">
+      <div class="container">
+        <div class="swiper-container swiper-no-swiping">
+          <div class="swiper-wrapper">
+            
+            <div class="hero__content swiper-slide">
+              <h1 class="heading-primary">
+                Samco are the World Leading Distributor
+              </h1>
+              <p class="hero__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                tempus rhoncus nisi non tincidunt. Donec at semper mi. In semper
+                velit eget semper rutrum. Duis tincidunt gravida dignissim.
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="hero__content swiper-slide">
+              <h1 class="heading-primary">
+                2.Samco are the World Leading Distributor
+              </h1>
+              <p class="hero__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                tempus rhoncus nisi non tincidunt. Donec at semper mi. In semper
+                velit eget semper rutrum. Duis tincidunt gravida dignissim.
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="hero__content swiper-slide">
+              <h1 class="heading-primary">
+                3.Samco are the World Leading Distributor
+              </h1>
+              <p class="hero__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                tempus rhoncus nisi non tincidunt. Donec at semper mi. In semper
+                velit eget semper rutrum. Duis tincidunt gravida dignissim.
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination">
+          
+        </div>
+      </div>
+    </section>
+    <!--  End of Hero Section -->
+
+    <!-- Featured Section  -->
+    <section class="featured">
+      <div class="container grid grid--2-cols">
+        <!-- Featured Content 01 -->
+        <div class="featured__content">
+          <img src="/images/featured1.jpg" alt="featured1" />
+          <div class="featured__text-box">
+            <p class="featured__text">
+              We are the best distributor of Lenovo Gaming products
+            </p>
+            <a href="#" class="featured__link">Read more</a>
+          </div>
+        </div>
+        <!-- Featured Content 02 -->
+        <div class="featured__content">
+          <img src="/images/featured1.jpg" alt="featured1" />
+          <div class="featured__text-box">
+            <p class="featured__text">
+              Samco received award from Dell Technologies Vietnam
+            </p>
+            <a href="#" class="featured__link">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Featured Section  -->
+
+    <!-- Service Section  -->
+    <section class="service">
+      <div class="container grid grid--2-cols">
+        <!-- Service Left  -->
+        <div class="service__left">
+          <img src="/images/service.jpg" alt="service" />
+        </div>
+
+        <!-- Service Right  -->
+        <div class="service__right">
+          <h2 class="heading-secondary">COOPERATION WITH us</h2>
+          <h1 class="heading-primary">Products and services</h1>
+          <p class="service__text">
+            Cras feugiat vulputate iaculis. Quisque vel cursus velit, nec
+            pretium lorem. Nulla blandit nisl eget nibh sodales malesuada. Duis
+            at ligula venenatis, ultrices ipsum vitae, fermentum enim. Maecenas
+            consectetur placerat purus. Donec euismod massa nec ipsum porttitor,
+            sit amet egestas purus vestibulum.
+          </p>
+          <div class="service__list">
+            <div class="service__list-in">
+              <!-- Service List Box 01 -->
+              <div class="service__list-box">
+                <img src="/images/service1.svg" alt="service1" />
+                <p class="service__name">Distributor</p>
+              </div>
+              <!-- Service List Box 02 -->
+              <div class="service__list-box">
+                <img src="/images/service3.svg" alt="service1" />
+                <p class="service__name">Project Support</p>
+              </div>
+            </div>
+            <div class="service__list-in">
+              <!-- Service List Box 03 -->
+              <div class="service__list-box">
+                <img src="/images/service2.svg" alt="service1" />
+                <p class="service__name">Fullfillment</p>
+              </div>
+              <!-- Service List Box 04 -->
+              <div class="service__list-box">
+                <img src="/images/service4.svg" alt="service1" />
+                <p class="service__name">Retails</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Service Section  -->
+
+    <!-- Story Section -->
+    <section class="story">
+      <div class="container grid grid--2-cols">
+        <!-- Story Left  -->
+        <div class="story__left">
+          <h1 class="heading-primary">SUCCESS STORY</h1>
+          <h2 class="heading-secondary">
+            The journey of development to the number 1
+          </h2>
+          <p class="story__text">
+            Morbi aliquet vehicula arcu, et ultricies metus rutrum vitae.
+            Pellentesque in lacus in metus lobortis eleifend nec nec justo.
+            Vivamus dignissim, sapien ac consequat ultricies, elit turpis
+            fringilla lectus, sit amet facilisis purus dui a lacus. Vivamus sem
+            augue, dictum id leo a, mattis volutpat ligula.
+          </p>
+          <p class="story__text">
+            Fusce sit amet odio dignissim ante fringilla vestibulum a eget mi.
+            Cras vulputate metus eu quam blandit, sed pretium diam consectetur.
+            Ut eget ante sed odio placerat placerat. Integer auctor augue nec
+            dui eleifend sollicitudin.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <!-- Story Right  -->
+        <div class="story__right">
+          <div class="story__video">
+            <img src="/images/story.png" alt="story" />
+            <div class="story__play" onclick="videoPopup();">
+              <ion-icon name="play" class="story__icon"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="story__video-pop">
+        <div class="wrapper">
+          <div class="story__iframe">
+            <iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/YLN1Argi7ik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <ion-icon name="close-outline" class="story__vid-icon" onclick="videoPopup();"></ion-icon>
+      </div>
+    </section>
+    <!-- End of Story Section -->
+    
+    <!-- Scale Section  -->
+    <section class="scale">
+      <div class="container">
+        <!-- Scale Row 01  -->
+        <div class="scale__row1 grid grid--2-cols">
+          <div class="scale__row1-left">
+            <h2 class="heading-secondary">30 years of development</h2>
+            <h1 class="heading-primary">Current Scale & Achievements</h1>
+          </div>
+          <div class="scale__row1-right">
+            <p class="scale__row1-text">
+              Vestibulum mollis quam eget neque luctus, quis gravida odio
+              ultrices. Etiam euismod ornare lacinia. Vivamus porta orci vitae
+              mi maximus consectetur. Proin condimentum faucibus enim ac
+              finibus. Mauris pulvinar ac sapien efficitur efficitur.
+            </p>
+          </div>
+        </div>
+
+        <!-- Scale Row 02  -->
+        <div class="scale__row2">
+          <div class="grid">
+            <!-- Scale-Row2 Box 01  -->
+            <div class="scale__row2-box">
+              <h1 class="heading-primary">30<sup>+</sup></h1>
+              <p class="scale__row2-name">Years Of Development</p>
+            </div>
+            <!-- Scale-Row2 Box 02  -->
+            <div class="scale__row2-box">
+              <h1 class="heading-primary">40<sup>+</sup></h1>
+              <p class="scale__row2-name">Vendors</p>
+            </div>
+            <!-- Scale-Row2 Box 03  -->
+            <div class="scale__row2-box">
+              <h1 class="heading-primary">3800<sup>+</sup></h1>
+              <p class="scale__row2-name">Distribution Agent</p>
+            </div>
+            <!-- Scale-Row2 Box 04  -->
+            <div class="scale__row2-box">
+              <h1 class="heading-primary">8000<sup>+</sup></h1>
+              <p class="scale__row2-name">Branch Stores</p>
+            </div>
+            <!-- Scale-Row2 Box 05  -->
+            <div class="scale__row2-box">
+              <h1 class="heading-primary">1000<sup>+</s></h1>
+              <p class="scale__row2-name">Employees</p>
+            </div>
+            <!-- Scale-Row2 Box 06  -->
+            <div class="scale__row2-box">
+              <h1 class="heading-primary">11<sup>+</sup></h1>
+              <p class="scale__row2-name">Service Centers</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scale Row 03  -->
+        <div class="scale__row3 grid grid--3-cols">
+          <img src="/images/scale1.jpg" alt="scale" />
+          <img src="/images/scale2.jpg" alt="scale" />
+          <img src="/images/scale3.jpg" alt="scale" />
+        </div>
+      </div>
+    </section>
+    <!-- End of Scale Section  -->
+
+    <!-- Career Section  -->
+    <section class="career">
+      <div class="grid grid--2-cols">
+        <div class="career__left">
+          <img src="/images/career.jpg" alt="career" />
+        </div>
+        <div class="career__right">
+          <h2 class="heading-secondary">career opportunities</h2>
+          <h1 class="heading-primary">Discover The Best Opportunities</h1>
+          <p class="career__text">
+            Proin eget elit lectus. Aenean blandit mauris lacus, id vestibulum
+            urna fringilla vitae. Curabitur quis consequat libero. Cras in
+            eleifend nisl. Cras ut velit pretium, lacinia arcu et, hendrerit
+            risus. Proin pretium id augue a pulvinar. Aenean iaculis ex eu
+            interdum tempus. Pellentesque rhoncus sem quis enim sagittis, sit
+            amet iaculis erat laoreet.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!--End of Career Section  -->
+
+    <!-- Blog Section  -->
+    <section class="blog">
+      <div class="container center">
+        <h2 class="heading-secondary">Latest news</h2>
+        <h1 class="heading-primary">News & Events</h1>
+      </div>
+
+      <div class="blog__row1">
+        <div class="container grid grid--2-cols">
+          <!-- Blog Row1 - 01  -->
+          <div class="blog__row1-box">
+            <img src="/images/blog-1.jpg" alt="blog-1" />
+            <div class="blog__tags">
+              <p class="blog__tag">News</p>
+              <span>|</span>
+              <p class="blog__date">30/07/2021</p>
+            </div>
+            <p class="blog__title">
+              <a href="#"
+                >Your Best Parcel Shipping Strategy: Source Capacity from All
+                Carriers.</a
+              >
+            </p>
+          </div>
+          <!-- Blog Row2 - 02  -->
+          <div class="blog__row1-box">
+            <img src="/images/blog-2.jpg" alt="blog-1" />
+            <div class="blog__tags">
+              <p class="blog__tag">News</p>
+              <span>|</span>
+              <p class="blog__date">30/07/2021</p>
+            </div>
+            <p class="blog__title">
+              <a href="#"
+                >When Order Fulfillment Automation Does, and Doesn’t, Make
+                Sense.</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog__row2">
+        <div class="container grid grid--3-cols">
+          <!-- Blog Row2 - 01  -->
+          <div class="blog__row1-box">
+            <div class="blog__tags">
+              <p class="blog__tag">News</p>
+              <span>|</span>
+              <p class="blog__date">30/07/2021</p>
+            </div>
+            <p class="blog__title">
+              <a href="#"
+                >VIDEO: What is the key to fulfillment warehouse quality
+                management?</a
+              >
+            </p>
+          </div>
+          <!-- Blog Row2 - 02  -->
+          <div class="blog__row1-box">
+            <div class="blog__tags">
+              <p class="blog__tag">News</p>
+              <span>|</span>
+              <p class="blog__date">30/07/2021</p>
+            </div>
+            <p class="blog__title">
+              <a href="#"
+                >Fulfillment warehouse quality management programs have good
+                intentions.</a
+              >
+            </p>
+          </div>
+          <!-- Blog Row2 - 03  -->
+          <div class="blog__row1-box">
+            <div class="blog__tags">
+              <p class="blog__tag">News</p>
+              <span>|</span>
+              <p class="blog__date">30/07/2021</p>
+            </div>
+            <p class="blog__title">
+              <a href="#"
+                >Amware Helps Thane Improve Fulfillment for Direct Response
+                Marketing</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container center">
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+    <!-- End of Blog Section  -->
+
+    <!-- Feedback Section  -->
+    <section class="feedback">
+      <div class="container center">
+        <div class="heading-primary">Customer's feedback</div>
+      </div>
+
+        <div class="feedback__list">
+          <!-- Feedback Box  -->
+        <div class="feedback__box">
+          <ion-icon name="checkmark-done-outline" class="feedback__quote"></ion-icon>
+          <div class="feedback__rating">
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+          </div>
+          <p class="feedback__text">
+            “In hac habitasse platea dictumst. Donec at nunc nec massa ultricies
+            lobortis. Interdum et malesuada fames ac ante ipsum primis in
+            faucibus. Fusce sit amet odio dignissim ante fringilla vestibulum a
+            eget mi. Cras vulputate metus eu quam blandit, sed pretium diam
+            consectetur. Ut eget ante sed odio placerat placerat. Integer auctor
+            augue nec dui eleifend sollicitudin. Donec at nisi et ante dapibus
+            laoreet. Duis et quam ac augue viverra convallis.”
+          </p>
+          <div class="feedback__client-box">
+            <p class="feedback__client">Mr. Raheem Smiths</p>
+            <p class="feedback__pos">CEO AM Solution Corp</p>
+          </div>
+
+          <ion-icon name="arrow-back-outline" class="prev"></ion-icon>
+          <ion-icon name="arrow-forward-outline" class="next"></ion-icon>
+
+          <div class="feedback__dots dots">
+            <span></span>
+            <span class="active"></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- Feedback Box  -->
+        <div class="feedback__box">
+          <ion-icon name="checkmark-done-outline" class="feedback__quote"></ion-icon>
+          <div class="feedback__rating">
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+          </div>
+          <p class="feedback__text">
+            “In hac habitasse platea dictumst. Donec at nunc nec massa ultricies
+            lobortis. Interdum et malesuada fames ac ante ipsum primis in
+            faucibus. Fusce sit amet odio dignissim ante fringilla vestibulum a
+            eget mi. Cras vulputate metus eu quam blandit, sed pretium diam
+            consectetur. Ut eget ante sed odio placerat placerat. Integer auctor
+            augue nec dui eleifend sollicitudin. Donec at nisi et ante dapibus
+            laoreet. Duis et quam ac augue viverra convallis.”
+          </p>
+          <div class="feedback__client-box">
+            <p class="feedback__client">Mr. Raheem Smiths</p>
+            <p class="feedback__pos">CEO AM Solution Corp</p>
+          </div>
+
+          <ion-icon name="arrow-back-outline" class="prev"></ion-icon>
+          <ion-icon name="arrow-forward-outline" class="next"></ion-icon>
+
+          <div class="feedback__dots dots">
+            <span></span>
+            <span class="active"></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- Feedback Box  -->
+        <div class="feedback__box">
+          <ion-icon name="checkmark-done-outline" class="feedback__quote"></ion-icon>
+          <div class="feedback__rating">
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+          </div>
+          <p class="feedback__text">
+            “In hac habitasse platea dictumst. Donec at nunc nec massa ultricies
+            lobortis. Interdum et malesuada fames ac ante ipsum primis in
+            faucibus. Fusce sit amet odio dignissim ante fringilla vestibulum a
+            eget mi. Cras vulputate metus eu quam blandit, sed pretium diam
+            consectetur. Ut eget ante sed odio placerat placerat. Integer auctor
+            augue nec dui eleifend sollicitudin. Donec at nisi et ante dapibus
+            laoreet. Duis et quam ac augue viverra convallis.”
+          </p>
+          <div class="feedback__client-box">
+            <p class="feedback__client">Mr. Raheem Smiths</p>
+            <p class="feedback__pos">CEO AM Solution Corp</p>
+          </div>
+
+          <ion-icon name="arrow-back-outline" class="prev"></ion-icon>
+          <ion-icon name="arrow-forward-outline" class="next"></ion-icon>
+
+          <div class="feedback__dots dots">
+            <span></span>
+            <span class="active"></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- Feedback Box  -->
+        <div class="feedback__box">
+          <ion-icon name="checkmark-done-outline" class="feedback__quote"></ion-icon>
+          <div class="feedback__rating">
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+          </div>
+          <p class="feedback__text">
+            “In hac habitasse platea dictumst. Donec at nunc nec massa ultricies
+            lobortis. Interdum et malesuada fames ac ante ipsum primis in
+            faucibus. Fusce sit amet odio dignissim ante fringilla vestibulum a
+            eget mi. Cras vulputate metus eu quam blandit, sed pretium diam
+            consectetur. Ut eget ante sed odio placerat placerat. Integer auctor
+            augue nec dui eleifend sollicitudin. Donec at nisi et ante dapibus
+            laoreet. Duis et quam ac augue viverra convallis.”
+          </p>
+          <div class="feedback__client-box">
+            <p class="feedback__client">Mr. Raheem Smiths</p>
+            <p class="feedback__pos">CEO AM Solution Corp</p>
+          </div>
+
+          <ion-icon name="arrow-back-outline" class="prev"></ion-icon>
+          <ion-icon name="arrow-forward-outline" class="next"></ion-icon>
+
+          <div class="feedback__dots dots">
+            <span></span>
+            <span class="active"></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- Feedback Box  -->
+        <div class="feedback__box">
+          <ion-icon name="checkmark-done-outline" class="feedback__quote"></ion-icon>
+          <div class="feedback__rating">
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+            <ion-icon name="star" class="feedback__star"></ion-icon>
+          </div>
+          <p class="feedback__text">
+            “In hac habitasse platea dictumst. Donec at nunc nec massa ultricies
+            lobortis. Interdum et malesuada fames ac ante ipsum primis in
+            faucibus. Fusce sit amet odio dignissim ante fringilla vestibulum a
+            eget mi. Cras vulputate metus eu quam blandit, sed pretium diam
+            consectetur. Ut eget ante sed odio placerat placerat. Integer auctor
+            augue nec dui eleifend sollicitudin. Donec at nisi et ante dapibus
+            laoreet. Duis et quam ac augue viverra convallis.”
+          </p>
+          <div class="feedback__client-box">
+            <p class="feedback__client">Mr. Raheem Smiths</p>
+            <p class="feedback__pos">CEO AM Solution Corp</p>
+          </div>
+
+          <ion-icon name="arrow-back-outline" class="prev"></ion-icon>
+          <ion-icon name="arrow-forward-outline" class="next"></ion-icon>
+
+          <div class="feedback__dots dots">
+            <span></span>
+            <span class="active"></span>
+            <span></span>
+          </div>
+        </div>
+        </div>
+      
+    </section>
+    <!-- End of Feedback Section  -->
+
+    <!-- Contact Section  -->
+    <section class="contact" id="contact">
+      <div class="container center">
+        <h1 class="heading-primary">Contact information</h1>
+      </div>
+      <div class="container grid">
+        <div class="contact__left">
+          <!-- Contact Address List 01  -->
+          <div class="contact__list">
+            <ion-icon name="map-outline" class="contact__icon"></ion-icon>
+            <div class="contact__box">
+              <p class="contact__title">Address :</p>
+              <a href="https://goo.gl/maps/bmTP9JszozsmHAeM8" target="_blank" >
+                <p class="contact__address">
+                  Zander Kaaes gate 6, 5015 Bergen, Norway
+                </p>
+              </a>
+            </div>
+          </div>
+          <!-- Contact Address List 02  -->
+          <div class="contact__list">
+            <ion-icon name="mail-outline" class="contact__icon"></ion-icon>
+            <div class="contact__box">
+              <p class="contact__title">Email :</p>
+              <a href="mailto:samcomarketing@samco.com" target="_blank"><p  class="contact__address">samcomarketing@samco.com</p></a>
+            </div>
+          </div>
+          <!-- Contact Address List 03  -->
+          <div class="contact__list">
+            <ion-icon name="call-outline" class="contact__icon"></ion-icon>
+            <div class="contact__box">
+              <p class="contact__title">Phone Number :</p>
+              <a href="tel:024.3300.6611" target="_blank"><p class="contact__address">024.3300.6611 – Ext 43365</p></a>
+            </div>
+          </div>
+          <!-- Contact Address List 04  -->
+          <div class="contact__list">
+            <ion-icon name="time-outline" class="contact__icon"></ion-icon>
+            <div class="contact__box">
+              <p class="contact__title">Working Time :</p>
+              <p class="contact__address">
+                Monday - Friday, 08:00 AM - 05:30 PM
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Right -->
+        <div class="contact__right">
+          <form action="/" class="contact__form form">
+            <input placeholder="Name *" type="text" required />
+            <input placeholder="Email *" type="email" required />
+            <input placeholder="Phone *" type="tel" required />
+            <input placeholder="Company" type="text" />
+            <textarea placeholder="Message *" required></textarea>
+            <button class="btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact Section  -->
+
+    <!-- Subscribe Section  -->
+    <section class="subscribe">
+      <div class="container grid">
+        <!-- Subscribe Left  -->
+        <div class="subscribe__left">
+          <h1 class="heading-primary">Subscribe to receive information</h1>
+          <p class="subscribe__text">
+            Enter your email address to receive promotional information and
+            promotional materials.
+          </p>
+        </div>
+
+        <!-- Subscribe Right  -->
+        <div class="subscribe__right">
+          <form action="/" class="subscribe__form">
+            <input placeholder="Your Email Address" type="email" required />
+            <button
+              class="subscribe__btn"
+              type="submit"
+              data-submit="...Sending"
+            >
+            <ion-icon name="send-outline" class="subscribe__icon"></ion-icon>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End of Subscribe Section  -->
+
+    <!-- Footer Section  -->
+    <footer class="footer">
+      <!-- Footer Row 01  -->
+      <div class="footer__row1">
+        <div class="container grid">
+          <div class="footer__col">
+            <div class="footer__title">About Us</div>
+            <a href="#" class="footer__link">Company Profile</a>
+            <a href="#" class="footer__link">Contact Us</a>
+            <a href="#" class="footer__link">Careers</a>
+          </div>
+          <div class="footer__col">
+            <div class="footer__title">Services</div>
+            <a href="#" class="footer__link">Fullfillment</a>
+            <a href="#" class="footer__link">Project Support</a>
+            <a href="#" class="footer__link">Distributor</a>
+            <a href="#" class="footer__link">Retails</a>
+          </div>
+          <div class="footer__social">
+            <a href="#"
+            class="footer__logo"><img
+                
+                src="/images/footer-logo.png"
+                alt="Footer Logo"
+            /></a>
+            <div class="footer__social-link">
+              <ion-icon name="logo-facebook" class="footer__social-icon"></ion-icon>
+              <ion-icon name="logo-twitter" class="footer__social-icon"></ion-icon>
+              <ion-icon name="logo-rss" class="footer__social-icon"></ion-icon>
+              <ion-icon name="logo-skype" class="footer__social-icon"></ion-icon>
+              <ion-icon name="logo-pinterest" class="footer__social-icon"></ion-icon>
+            </div>
+          </div>
+          <div class="footer__col">
+            <div class="footer__title">Supports</div>
+            <a href="#" class="footer__link">Pay Instructions</a>
+            <a href="#" class="footer__link">Customer support</a>
+            <a href="#" class="footer__link">FAQs</a>
+          </div>
+          <div class="footer__col">
+            <div class="footer__title">Policies</div>
+            <a href="#" class="footer__link">Terms of use</a>
+            <a href="#" class="footer__link">Payment Privacy</a>
+            <a href="#" class="footer__link">Complain Privacy</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Row 02  -->
+      <div class="footer__copyright">
+        <p class="footer__copyright-text">
+          Copyright © <span class="year">2029</span>, Samco Joint Stock Company.
+        </p>
+      </div>
+    </footer>
+    <!-- End of Footer Section  -->
+
+    <section class="vanilla__slider">
+      <div class="blog-slider__container">
+        <div class="blogSlides fade">
+          <div class="blog-slider__numbertext">1 / 3</div>
+          <img src="https://www.dropbox.com/s/6i60hcgrz7yatl5/nexus-6-2770-001.jpg?raw=1">
+          <div class="blog-slider__text">Caption Text</div>
+        </div>
+      
+        <div class="blogSlides fade">
+          <div class="blog-slider__numbertext">2 / 3</div>
+          <img src="https://www.dropbox.com/s/wu9u6l53z3q6zpa/date.jpg?raw=1">
+          <div class="blog-slider__text">Caption Two Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla similique enim ducimus sint nesciunt assumenda excepturi alias veritatis tenetur, inventore molestias labore ab odio quibusdam nostrum delectus debitis saepe reprehenderit!</div>
+        </div>
+      
+        <div class="blogSlides fade">
+          <div class="blog-slider__numbertext">3 / 3</div>
+          <img src="https://www.dropbox.com/s/c7vg753l95iv7g8/photo-bg-04.jpg?raw=1">
+          <div class="blog-slider__text">Caption Three</div>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <div class="blogSlider__dots" style="text-align:center">
+        <span class="blogSlider__dots--dot" onclick="currentSlide(1)"></span> 
+        <span class="blogSlider__dots--dot" onclick="currentSlide(2)"></span> 
+        <span class="blogSlider__dots--dot" onclick="currentSlide(3)"></span> 
+      </div>
+    </section>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <ion-icon name="arrow-up-outline" class="scrollup__icon"></ion-icon>
+  </a>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+@use "../util" as *;
+.hero {
+  background: url("/images/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20rem 0;
+  position: relative;
+}
+
+.hero__content {
+  max-width: 100%;
+}
+
+.hero .heading-primary {
+  color: var(--white);
+  line-height: 6.8rem;
+  margin-bottom: 3.5rem;
+}
+
+.hero__text {
+  color: var(--white);
+  line-height: 2.8rem;
+  margin-bottom: 5rem;
+}
+
+.hero__dots {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hero__dots span:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--white);
+}
+
+.swiper-container {
+  overflow: hidden;
+  max-width: 50rem;
+}

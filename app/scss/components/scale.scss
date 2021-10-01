@@ -1,0 +1,56 @@
+.scale {
+  margin-bottom: 10rem;
+
+  &__row1 {
+    align-items: end;
+    margin-bottom: 6rem;
+
+    .heading-primary {
+      line-height: 1.1;
+    }
+
+    &-text {
+      font-size: 2rem;
+      line-height: 3.2rem;
+    }
+  }
+
+  &__row2 {
+    margin-bottom: 7rem;
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      row-gap: 6rem;
+    }
+
+    &-box {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .heading-primary {
+      color: var(--primary-color);
+      font-weight: 600;
+
+      sup {
+        font-size: 3rem;
+      }
+    }
+
+    &-name {
+      font-size: 2.8rem;
+    }
+  }
+
+  &__row3 {
+    .grid {
+      justify-content: center;
+      align-items: center;
+    }
+
+    img {
+      justify-self: center;
+    }
+  }
+}
